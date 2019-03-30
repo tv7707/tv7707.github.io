@@ -9,7 +9,7 @@ $(document).ready(function() {
     // Superslides Plugin.
     $('#slides').superslides({
         animation: 'fade',
-        play: 0
+        play: 3000
     });
 
     //typed plugin
