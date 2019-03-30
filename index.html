@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css"  href="css/superslides.css">
+        <link rel="stylesheet" type="text/css"  href="css/base.css">
+        <link rel="stylesheet" type="text/css"  href="css/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.lineProgressbar.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="loader">
+            <div class="inner">
+
+            </div>
+        </div>
+        <div id="slides">
+            <div class="overlay"></div>
+            <div class="slides-container">
+                <img src="img/slide-1.jpg" alt="">
+                <img src="img/slide-2.jpg" alt="">
+                <img src="img/slide-3.jpg" alt="">
+            </div>
+
+            <div class="titleMessage">
+                <div class="heading">
+                    <p class="mainTitle">TEJAL VISHNOI</p>
+                    <p class="subTitle typed"></p>
+                </div>
+            </div>
+            <nav class="slides-navigation">
+                <a href="#" class="next"><i class="material-icons">arrow_forward_ios</i></a>
+                <a href="#" class="prev"><i class="material-icons">arrow_back_ios</i></a>
+            </nav>
+        </div>
+        <nav id="navigation" class="navbar navbar-expand-lg">
+                <div class="navWelcome">
+                    <img src="img/nav/welcome-2.png">
+                    <a class="navbar-brand" href="#">Welcome</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="material-icons">menu</i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">About Me<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#technicalSkills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <div id="about" class="sections">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="selfImage" src="img/self.jpg">
+                    </div>
+                    <div class="col-md-7">
+                        <h2>BIO</h2>
+                        <p class="bioSalution">Hi there, <span>I’m Tejal Vishnoi.</span> Nice to meet you!</p>
+                        <p class="intro">I’ve always been someone who has both imaginative and logical side. When I learned programming in college,I realized this would be perfect fit for me. I could use my creative side to design and logical side to code. </p>
+                        <p class="intro">I like to build high quality applications and websites small or big with moments of delight. I’ll be graduating this May to become a full-time adult and yearning to find a group of cool people to learn and grow with. 
+                        </p>
+                        <div class="education">
+                        <h4>Education</h4>
+                        <p class="college">Rochester Institute of Technology, Rochester NY</p>
+                        <p>Master of Science, Software Engineering </p>
+                        <p>August 2016 - May 2019 | GPA: 3.57</p> 
+                        <p class="college">BK Birla Institute of Technology</p>
+                        <p>Bachelor of Technology, Electronics & Communication Engineering </p>
+                        <p>August 2010 - May 2014 | GPA: 3.6</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="experience" class="workSection sections">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2> Where I've Worked</h2>
+                    </div>
+                    <div class="col-md-3 col-sm-5">
+                        <div class="experiences">
+                            <ul class="experienceTab">
+                                <li><a class="bttn btn-p" href="#tab1-panel">CypherWorx</a></li>
+                                <li><a class="bttn btn-p" href="#tab2-panel">RIT-I</a></li>
+                                <li><a class="bttn btn-p" href="#tab3-panel">RIT-II</a></li>
+                                <li><a class="bttn btn-p" href="#tab4-panel">OneUp Software</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div id="tab1-panel" class="experienceContent">
+                            <h4>Full Stack, Web Developer</h4>
+                            <p>Jan 2018-Dec 2018</p>
+                            <ul>
+                                <li>Designed and developed an interactive User Interface for support hub website using HTML, CSS, jQuery.</li>
+                                <li>Enhanced existing time-management and scheduling calendar service module using jQuery, AJAX and PHP.</li>
+                                <li>Created tables in the server-side processing mode using DataTables and jQuery, wrote SQL queries for them.</li>
+                                <li>Revamped front-end of Learning management system with 100+ web pages to more responsive, interactive interface.</li>
+                                <li>Participated extensively in user-acceptance testing procedures through focus-group meetings with prospective users. </li>
+                            </ul>
+                        </div>       
+                        <div id="tab2-panel" class="experienceContent">
+                            <h4>Budget Assistant</h4>
+                            <p>May 2017-Dec 2017</p>
+                            <ul>
+                                <li>Provided high-level departmental budget support to the Financial Services Director.</li>
+                                <li> Created visually impactful dashboards in Excel and Tableau for data reporting by using pivot tables and VLOOKUP.</li>
+                                <li> Performed financial analyses using advanced Excel and SQL that helped management to make financial decisions.</li>
+                            </ul>
+                        </div>
+                        <div id="tab3-panel" class="experienceContent">
+                            <h4>Teaching Assistant</h4>
+                            <p>Aug 2016-Dec 2016</p>
+                            <ul>
+                                <li>Course: SWEN.261.15 - Introduction to Software Engineering</li>
+                                <li> Assisted Professor with grading and helped students with their project and homework queries.</li>
+                            </ul>
+                        </div>
+                        <div id="tab4-panel" class="experienceContent">
+                            <h4>Assistant Software Engineer</h4>
+                            <p>March 2015-May 2016</p>
+                            <ul>
+                                <li>Collaborated in development of a RESTful platform for a healthcare application.</li>
+                                <li> Contributed in database schema design and views in MySQL.</li>
+                               <li>Single handedly created website and app interface for the application using JavaScript and Bootstrap.</li> 
+                               <li>Designed test cases for various use case scenarios to ensure optimal functionality of the application.</li>
+                            </ul>
+                        </div>
+                        <div id="tab4-panel" class="experienceContent">
+                            <h4>Assistant Software Engineer</h4>
+                            <p>March 2015-May 2016</p>
+                            <ul>
+                                <li>Collaborated in development of a RESTful platform for a healthcare application.</li>
+                                <li> Contributed in database schema design and views in MySQL.</li>
+                               <li>Single handedly created website and app interface for the application using JavaScript and Bootstrap.</li> 
+                               <li>Designed test cases for various use case scenarios to ensure optimal functionality of the application.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="technicalSkills" class="skillsSection sections">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>TECHNICAL SKILLS</h2>
+                        <p>Things I have learned so far.</p>
+                    </div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="skill">
+                            <span class="chart" data-percent="70">
+                                <span class="percent">70</span>
+                                <canvas width="152" height="152"></canvas>
+                            </span>
+                            <h4>JAVA</h4>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="80">
+                                <span class="percent">80</span>
+                                <canvas width="152" height="152"></canvas>
+                            </span>
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="70">
+                                <span class="percent">70</span>
+                                <canvas width="152" height="152"></canvas>
+                            </span>
+                            <h4>PHP</h4>
+                        </div>
+                        <div class="skill">
+                                <span class="chart" data-percent="80">
+                                    <span class="percent">80</span>
+                                    <canvas width="152" height="152"></canvas>
+                                </span>
+                                <h4>MYSQL</h4>
+                        </div>
+                        <div class="skill">
+                                <span class="chart" data-percent="70">
+                                    <span class="percent">70</span>
+                                    <canvas width="152" height="152"></canvas>
+                                </span>
+                                <h4>NodeJS</h4>
+                        </div>
+                        <div class="skill">
+                                <span class="chart" data-percent="70">
+                                    <span class="percent">80</span>
+                                    <canvas width="152" height="152"></canvas>
+                                </span>
+                                <h4>Angular</h4>
+                        </div>
+                        <div class="skill">
+                                <span class="chart" data-percent="70">
+                                    <span class="percent">70</span>
+                                    <canvas width="152" height="152"></canvas>
+                                </span>
+                                <h4>ExpressJS</h4>
+                        </div>
+                        <div class="skill">
+                                <span class="chart" data-percent="90">
+                                    <span class="percent">90</span>
+                                    <canvas width="152" height="152"></canvas>
+                                </span>
+                                <h4>CSS</h4>
+                        </div>
+                        <div class="skill">
+                                <span class="chart" data-percent="50">
+                                    <span class="percent">50</span>
+                                    <canvas width="152" height="152"></canvas>
+                                </span>
+                                <h4>AWS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id ="projects" class="projectSection sections">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>PROJECTS</h2>
+                    </div>
+                    <div class="itemsContainer">
+                        <ul class="items">
+                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="img/thumbnail/toolshare.png">
+                                    <div class="icons">
+                                        <a href="img/toolshare.png" title="View Image" class="openImageButton"
+                                        data-fancybox data-caption="Beautiful flower">
+                                            <i class="material-icons">search</i>
+                                        </a>
+                                        <a href="https://github.com/tv7707/ToolShare" target="_blank" class="projectLink">
+                                            <i class="material-icons">link</i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                    <div class="item">
+                                        <img src="img/thumbnail/datamart.png">
+                                        <div class="icons">
+                                            <a href="img/datamart.png" title="View Image" class="openImageButton"
+                                            data-fancybox data-caption="Beautiful flower">
+                                                <i class="material-icons">search</i>
+                                            </a>
+                                            <a href="https://github.com/tv7707/DataMart" target="_blank" class="projectLink">
+                                                <i class="material-icons">link</i>
+                                            </a>
+                                        </div>
+                                        <div class="imageOverlay"></div>
+                                    </div>
+                            </li>
+                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                    <div class="item">
+                                        <img src="img/thumbnail/Youtube.png">
+                                        <div class="icons">
+                                            <a href="img/Youtube.png" title="View Image" class="openImageButton"
+                                            data-fancybox data-caption="Beautiful flower">
+                                                <i class="material-icons">search</i>
+                                            </a>
+                                            <a href="https://github.com/tv7707/Youtube-Spam-Detection" target="_blank" class="projectLink">
+                                                <i class="material-icons">link</i>
+                                            </a>
+                                        </div>
+                                        <div class="imageOverlay"></div>
+                                    </div>   
+                            </li>
+                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                    <div class="item">
+                                        <img src="img/thumbnail/Angular.png">
+                                        <div class="icons">
+                                            <a href="img/Angular.png" title="View Image" class="openImageButton"
+                                            data-fancybox data-caption="Beautiful flower">
+                                                <i class="material-icons">search</i>
+                                            </a>
+                                            <a href="https://github.com/tv7707/Recipe-Book" target="_blank" class="projectLink">
+                                                <i class="material-icons">link</i>
+                                            </a>
+                                        </div>
+                                        <div class="imageOverlay"></div>
+                                    </div>
+                            </li>
+                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                    <div class="item">
+                                        <img src="img/thumbnail/Mean.png">
+                                        <div class="icons">
+                                            <a href="img/Mean.png" title="View Image" class="openImageButton"
+                                            data-fancybox data-caption="Beautiful flower">
+                                                <i class="material-icons">search</i>
+                                            </a>
+                                            <a href="https://github.com/tv7707/Payroll-Application" target="_blank" class="projectLink">
+                                                <i class="material-icons">link</i>
+                                            </a>
+                                        </div>
+                                        <div class="imageOverlay"></div>
+                                    </div>
+                            </li>
+                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                    <div class="item">
+                                        <img src="img/thumbnail/AutonomousCar.png">
+                                        <div class="icons">
+                                            <a href="img/AutonomousCar.png" title="View Image" class="openImageButton"
+                                            data-fancybox data-caption="Beautiful flower">
+                                                <i class="material-icons">search</i>
+                                            </a>
+                                            <a href="https://github.com/tv7707/heartbeat" target="_blank" class="projectLink">
+                                                <i class="material-icons">link</i>
+                                            </a>
+                                        </div>
+                                        <div class="imageOverlay"></div>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contactSection sections">
+                <div class="col-md-12 text-center">
+                        <h2>CONTACT ME <i class="material-icons">mail</i></h2>
+                        <p>I'd love to hear from you!</p>
+                    </div>
+                <div class="col-md-12 text-center">
+                    <a href="mailTo:tv4466@rit.edu" class="contactButton">GET IN TOUCH!</a>
+                    <a href="Tejal_Vishnoi_Resume.pdf" class="contactButton">RESUME</a>
+                </div>
+            </div>
+
+
+        <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/jquery.lineProgressbar.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
